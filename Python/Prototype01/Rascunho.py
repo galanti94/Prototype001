@@ -1,16 +1,17 @@
-kw_a = ['ler', 'somar','ler', 'somar','ler', 'somar']
+import json
+dict1 = {'um':1, 'dois':2, 'três':3}
+dict2 = {'quatro':4, 'cinco':5, 'seis':6}
 
-set_kw_a = set(kw_a)
+ref_arquivo = open("Python/Prototype01/informacoes.txt","r", encoding='utf-8')
 
-kw_count = {}
+novo_dict = ref_arquivo.read().replace('-', '').replace('\n', '').split(':')
+del novo_dict[0]
 
-for unique_kw in set_kw_a:
-    count = 0
-    for kw in kw_a:
-        if unique_kw == kw: 
-            count += 1
-    kw_count[f'{unique_kw}'] = count
+lista_tags = novo_dict[5].split(',')
+for i in range(len(lista_tags)): lista_tags[i] = lista_tags[i].strip()
+print(lista_tags)
+for i in lista_tags: print(i)
 
-print(type(['ler', 'somar']) == list)
 
-sorted(kw_count.items(), key=lambda x: x[1], reverse=True)
+
+ref_arquivo.close()

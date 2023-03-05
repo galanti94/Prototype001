@@ -1,0 +1,38 @@
+:Enunciado 1: Era uma vez um memnino muito maroto...
+
+:Alternativa A: 15 minutos
+:Tags A: Interpretação de texto, Soma de inteiros
+
+:Alternativa B: 10 minutos
+:Tags B: Soma de frações, Subtração
+
+:Alternativa C: 10 minutos
+:Tags B: Soma de frações, Subtração,
+Leitura
+
+:Alternativa D: 10 minutos
+:Tags B: Soma de frações, Subtração
+
+:Alternativa E: 10 minutos
+:Tags B: Soma de frações, Subtração
+
+------------------------------------------------------------------------------------
+
+:Enunciado 2: Era uma vez um memnino muito maroto...
+
+:Alternativa A: 15 minutos
+:Tags A: Interpretação de texto, Soma de inteiros
+
+:Alternativa B: 10 minutos
+:Tags B: Soma de frações, Subtração
+
+:Alternativa C: 10 minutos
+:Tags B: Soma de frações, Subtração
+
+:Alternativa D: 10 minutos
+:Tags B: Soma de frações, Subtração
+
+:Alternativa E: 10 minutos
+:Tags B: Soma de frações, Subtração
+
+------------------------------------------------------------------------------------
